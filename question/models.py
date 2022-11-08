@@ -23,4 +23,21 @@ class Answers(models.Model) :
         return self.answer
 
 
+#from question.models import Questions,Answers
+#from django.contrib.models import User
+#usr=User.objects.get(id=1)
+#Questions.objects.create(title="django",description="django architecture?",user=usr)
+#usr.questions_set.create(title="angular",description="angular architecture?")
+#usr.questions_set.create(title="java",description="java architecture?")
+#Questions.objects.filter(user=usr)
+#qs=usr.questions_set.all()
+#ques=Questions.object.get(id=3)
+#usr=User.Objects.get(id=2)
+#ques.answers_set.create(answer="architecture is here",user=usr)
+#usr=User.Objects.get(id=2)
 
+#ques.answers_set.all()
+
+
+#ques=Questions.objects.get(id=3)
+#ques.answers_set.creata(answer="structure based",user=usr)
